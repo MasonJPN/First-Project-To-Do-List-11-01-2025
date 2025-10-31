@@ -1,0 +1,58 @@
+a{
+  text-decoration: none;
+  color:blue;
+}
+
+a:hover{
+  color:red;
+}
+
+a:visited{
+  color:purple;
+}
+
+a:focus{
+  outline: 3px solid blue;
+}
+
+a:active{
+  color:pink;
+}
+body{
+  margin:0px
+}
+
+.My-To-Do-List{
+  background-color:grey;
+  min-height:600px;
+  width:400px;
+  margin:20px auto;
+  border: 2px solid black;  
+   border-radius: 10px; 
+  padding:20px; text-align:center;
+}
+
+body{
+  color:black;
+  font-family:Arial;
+}
+
+.todo-list{line-height:2.2;
+  list-style-type:none;
+}
+
+.sub-item{
+  list-style-type:square;
+  text-align:left;
+}
+
+.task-box{background-color:white;
+  border: 2px solid;
+  font-family:Arial;
+  border-radius:10px;
+  padding:15px;
+  box-sizing:border-box;
+  text-align:left;
+  width: 80%; 
+  margin: 10px auto;
+  }
